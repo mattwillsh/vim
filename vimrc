@@ -1,5 +1,3 @@
-call pathogen#infect()
-
 set nocompatible   " Disable vi-compatibility
 filetype off       " Required for vundle
 
