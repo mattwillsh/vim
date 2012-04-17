@@ -33,13 +33,13 @@ syntax enable
 
 set nocp
 
-" TODO: Tidy up the tabbing bits
-set autoindent
-set smartindent
-set shiftwidth=2
+" Tabs (2 spaces) and indents
 set expandtab
 set tabstop=2
 set smarttab
+set shiftwidth=2
+set autoindent
+set smartindent
 
 set wildmenu
 
