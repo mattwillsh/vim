@@ -13,7 +13,7 @@ Bundle 'gmarik/vundle'
 Bundle 'rodjek/vim-puppet'
 Bundle 'scrooloose/nerdtree'
 Bundle 'ervandew/supertab'
-Bundle 'godlygeek/tabular'
+"Bundle 'godlygeek/tabular'
 Bundle 'tComment'
 Bundle 'altercation/vim-colors-solarized'
 set background=dark
