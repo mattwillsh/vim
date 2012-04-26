@@ -45,6 +45,8 @@ set wildmenu
 
 set number numberwidth=6
 
+set mouse=a
+
 " Show eol and other white chars
 set listchars=eol:¬ " TODO: Can the EOL colour be changed?
 set list
