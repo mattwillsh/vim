@@ -1,10 +1,1 @@
-bundle/molokai/
-bundle/nerdtree/
-bundle/snipmate.vim/
-bundle/supertab/
-bundle/tComment/
-bundle/tabular/
-bundle/vim-colors-solarized/
-bundle/vim-git/
-bundle/vim-powerline/
-bundle/vim-puppet/
+bundle/*
