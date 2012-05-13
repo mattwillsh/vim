@@ -9,7 +9,7 @@ if [[ ! -f $HOME/.vimrc ]]; then
 fi
 
 # Make sure vundle is present 
-if [[ ! -d $HOME/.vim/bundle/vundle/.git ]]; then
+if [[ ! -e $HOME/.vim/bundle/vundle/.git ]]; then
   echo Installing vunlde and installing bundles
   cd $HOME/.vim
   git submodule init && git submodule update
