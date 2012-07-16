@@ -10,8 +10,10 @@ fi
 
 # Make sure vundle is present 
 if [[ ! -e $HOME/.vim/bundle/vundle/.git ]]; then
-  echo Installing vunlde and installing bundles
+  echo Installing vundle and installing bundles
   cd $HOME/.vim
-  git submodule init && git submodule update
+  [[ -d bundle ]] || mkdir bundle
+  cd bundle
+  git clone https://github.com/gmarik/vundle.git
   vim +BundleInstall +qall
 fi
