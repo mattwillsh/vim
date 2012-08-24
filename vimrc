@@ -12,10 +12,11 @@ Bundle 'gmarik/vundle'
 
 Bundle 'rodjek/vim-puppet'
 Bundle 'scrooloose/nerdtree'
-Bundle 'ervandew/supertab'
-"Bundle 'godlygeek/tabular'
+"Bundle 'ervandew/supertab'
+Bundle 'godlygeek/tabular'
 Bundle 'tComment'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'scrooloose/syntastic'
 set background=dark
 colorscheme solarized
 
@@ -23,7 +24,7 @@ Bundle 'tpope/vim-git'
 Bundle 'Lokaltog/vim-powerline'
 set laststatus=2   " Always show the statusline
 set encoding=utf-8 " Necessary to show unicode glyphs
-" let g:Powerline_symbols = 'fancy'
+let g:Powerline_symbols = 'fancy'
 
 Bundle 'msanders/snipmate.vim'
 
@@ -45,7 +46,7 @@ set wildmenu
 
 set number numberwidth=6
 
-set mouse=a
+"set mouse=a
 
 " Show eol and other white chars
 set listchars=eol:¬ " TODO: Can the EOL colour be changed?
